@@ -418,8 +418,15 @@ func (rsmq *RedisSMQ) createQueueMessage(cmd *redis.Cmd) (*QueueMessage, error) 
 	if len(vals) == 0 {
 		return nil, nil
 	}
-	id := vals[0].(string)
-	message := vals[1].(string)
+	var id = ""
+	if val, ok := vals[0].(string); ok {
+		id = val
+	}
+
+	var message = ""
+	if val, ok := vals[1].(string); ok {
+		message = val
+	}
 	rc := convertIntToUint(vals[2])
 	fr := convertStringToInt[int64](vals[3])
 	sent, err := strconv.ParseInt(id[0:10], 36, 64)
