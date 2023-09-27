@@ -1,4 +1,4 @@
-module github.com/semihbkgr/go-rsmq
+module git.imgo.tv/jinbo/go-rsmq
 
 go 1.18
 
