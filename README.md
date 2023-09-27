@@ -1,15 +1,15 @@
 # go-rsmq
 
-[![CI workflow](https://github.com/semihbkgr/go-rsmq/actions/workflows/ci.yaml/badge.svg)](https://github.com/semihbkgr/go-rsmq/actions/workflows/ci.yaml)
+[![CI workflow](https://git.imgo.tv/jinbo/go-rsmq/actions/workflows/ci.yaml/badge.svg)](https://git.imgo.tv/jinbo/go-rsmq/actions/workflows/ci.yaml)
 [![Codecov](https://codecov.io/gh/SemihBKGR/go-rsmq/branch/master/graph/badge.svg?token=IVOQ6PLNHM)](https://codecov.io/gh/SemihBKGR/go-rsmq)
-[![Go Reference](https://pkg.go.dev/badge/github.com/semihbkgr/go-rsmq.svg)](https://pkg.go.dev/github.com/semihbkgr/go-rsmq)
+[![Go Reference](https://pkg.go.dev/badge/git.imgo.tv/jinbo/go-rsmq.svg)](https://pkg.go.dev/git.imgo.tv/jinbo/go-rsmq)
 
 A lightweight message queue for Go that requires no dedicated queue server. Just a Redis server.
 
 Go implementation of https://github.com/smrchy/rsmq.
 
 ```shell
-$ go get github.com/semihbkgr/go-rsmq
+$ go get git.imgo.tv/jinbo/go-rsmq
 ```
 
 ## Redis Simple Message Queue

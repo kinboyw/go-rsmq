@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
+	"git.imgo.tv/jinbo/go-rsmq"
 	"github.com/go-redis/redis"
-	"github.com/semihbkgr/go-rsmq"
 )
 
 func exampleProducerConsumer() {
